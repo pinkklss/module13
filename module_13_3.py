@@ -15,7 +15,7 @@ async def start(message):
 
 @dp.message_handler()
 async def all_message(message):
-    print('Введите команду /start, чтобы начать общение.')
+    pass
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
